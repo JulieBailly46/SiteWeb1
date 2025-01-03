@@ -1,0 +1,115 @@
+
+
+header {grid-area: entete; background-color: rgba(20, 85, 122, 0.61);}
+section{grid-area: principale; background-color: rgba(234, 234, 243, 0.904);}
+aside {grid-area: lateral;background-color: rgba(5, 5, 51, 0.671);}
+footer{grid-area: pied;background-color: rgba(9, 9, 136, 0.336);border:}
+
+div.tout
+{
+    
+    display: grid;
+    grid-template-areas: "entete entete"
+                        " principale lateral"
+                        "pied pied";
+    grid-template-columns: 70% 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+img
+{
+    width: 90%;
+    height: auto;
+    
+}
+
+body
+{
+    
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+header, section, aside, footer
+
+{padding-left: 20px;}
+
+
+
+aside
+{
+    color: white;
+}
+
+footer
+{
+    color: white;
+}
+
+li.Titre2
+{
+    font-size: x-large;
+    list-style-type: circle;
+    background-color: rgba(191, 191, 199, 0.644);
+    margin-right: 10px;
+    list-style-position: inside;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.langue{grid-area: langue; background-color: rgba(240, 241, 237, 0);}
+.loisirs{grid-area: loisirs;background-color: rgba(165, 42, 42, 0);}
+.titree{grid-area: loisirs;background-color: rgba(165, 42, 42, 0);}
+
+.divers
+{
+    display: grid;
+    grid-template-areas: 
+                       
+                            "langue loisirs"
+                             " langue loisirs";
+grid-template-columns: 50% 50%;
+justify-items: center;
+
+
+}
+
+ul.background
+{
+    background-color: rgba(7, 15, 61, 0.747);
+    margin-right: 20px;
+    font-style: normal;
+    color: white;
+    word-wrap: break-word;
+}
+
+p.cote
+{
+   font-style: oblique;
+}
+
+progress
+{
+    width: 90%;
+}
+a{color: white;}
+
+@media(max-width:600px) 
+{
+div.tout 
+    {
+        display: grid:;
+        grid-template-areas: "entete"
+                            "principale"
+                            "lateral"
+                            "pied";
+        grid-template-columns: 100%;
+    }
+}
