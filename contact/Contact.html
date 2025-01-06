@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Stylecontact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="contact">
+    <h1> Formulaire de contact </h1>
+    <p> N'hésitez pas à me contacter via le formulaire suivant:</p>
+    <form method="post" action="contact.php" target="_blank" autocomplete="on">
+        <fieldset form="">
+        <div class="Nom">
+            <label for="Nom"> Votre nom </label>
+            <input type="text" name="Nom" id="Nom" required placeholder="Votre nom">
+        </div>
+        <div class="Prénom">
+            <label for="Prénom">Votre prénom</label>
+            <input type="text" name="Prénom" id="Prenom" placeholder="Votre prénom" required>
+
+        </div>
+        <div class="Email">
+            <label for="Email"> Votre e-mail</label>
+            <input type="email" name="Email" id="Email" placeholder="Votre mail" required>
+        </div>
+        <div class="sujet">
+            <label for="Sujet"> Quel est le sujet de votre message? </label>
+            <select name="Sujet" id="Sujet" required>
+                <option value="pro"> Travail </option>
+                <option value="perso"> Personnel </option>
+                <option value="autre"> Autre </option>
+            </select>
+        </div>
+        <div class="msg">
+            <label for="message"> Votre message </label>
+            <textarea name="message" placeholder="Bonjour, je vous écrit car..." rows="10" cols="40" required></textarea>
+        </div>
+        <div class="Bouton">
+            <button type="submit" >Envoyer mon message </button>
+        </div>
+    </fieldsetform>
+
+</div>
+</body>
+</html>
