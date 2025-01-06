@@ -1,6 +1,9 @@
 body
 {
-    background-image: url();
+    background-image: url(bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
-a{color: white;}
+
