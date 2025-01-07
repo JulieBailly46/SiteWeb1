@@ -8,11 +8,16 @@ body
     display: flex;
     justify-content: center;
 
+
 }
 
 fieldset
 {
     background-color: rgba(36, 142, 41, 0.24);
+    margin: 10px;
+    width: 90%;
+    align-content: center;
+    border-radius: 10px;
 
 }
 div.contact
@@ -22,6 +27,8 @@ div.contact
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+
+
 }
 
 form
@@ -30,4 +37,46 @@ form
     display: flex;
     flex-direction: column;
     min-height: 80px;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    line-height: 130%;
+
+}
+
+label
+{
+    margin: 10px;
+    font-weight: 600;
+    margin-left: 10%;
+
+
+}
+
+input, select, textarea
+{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+
+
+
+
+}
+
+input
+{
+    padding: 5px;
+    height: 20px;
+}
+
+button
+{
+    border-radius: 10px;
+    margin-left: 40%;
+    height: 30px;
 }

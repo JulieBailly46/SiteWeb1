@@ -8,40 +8,52 @@
 </head>
 <body>
 <div class="contact">
+    <form method="post" action="contact.php" target="_blank" autocomplete="on">
     <h1> Formulaire de contact </h1>
     <p> N'hésitez pas à me contacter via le formulaire suivant:</p>
-    <form method="post" action="contact.php" target="_blank" autocomplete="on">
+
         <fieldset form="">
         <div class="Nom">
             <label for="Nom"> Votre nom </label>
+            <br>
             <input type="text" name="Nom" id="Nom" required placeholder="Votre nom">
         </div>
+            <br>
         <div class="Prénom">
             <label for="Prénom">Votre prénom</label>
+            <br>
             <input type="text" name="Prénom" id="Prenom" placeholder="Votre prénom" required>
 
         </div>
+            <br>
         <div class="Email">
             <label for="Email"> Votre e-mail</label>
+            <br>
             <input type="email" name="Email" id="Email" placeholder="Votre mail" required>
         </div>
+            <br>
         <div class="sujet">
             <label for="Sujet"> Quel est le sujet de votre message? </label>
+            <br>
             <select name="Sujet" id="Sujet" required>
                 <option value="pro"> Travail </option>
                 <option value="perso"> Personnel </option>
                 <option value="autre"> Autre </option>
             </select>
         </div>
+            <br>
         <div class="msg">
             <label for="message"> Votre message </label>
+            <br>
             <textarea name="message" placeholder="Bonjour, je vous écrit car..." rows="10" cols="40" required></textarea>
         </div>
+            <br>
         <div class="Bouton">
             <button type="submit" >Envoyer mon message </button>
         </div>
     </fieldsetform>
 
 </div>
+
 </body>
 </html>
