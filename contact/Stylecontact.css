@@ -3,19 +3,60 @@ body
     background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-size: cover;
-    margin: 20px;
+    margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
+.menu{grid-area: menu}
+.tout{grid-area: tout}
+
+body
+{display: grid;
+    grid-template-areas: "menu menu" "tout tout";
+}
+h2
+{
+    margin-left: 10%;
+}
+.menu
+{
+    background-color: rgba(245, 245, 245, 0.77);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px;
+    column-gap: 30px;
+
+    min-height: 50px;
+    align-items: center;
+    padding:5px;
+}
+
+
+.content
+{
+    background-color: rgba(169, 169, 169, 0.29);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    flex-basis: 20%;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: large;}
 
 fieldset
 {
     background-color: rgba(36, 142, 41, 0.24);
     margin: 10px;
-    width: 90%;
+    width: 100%;
     align-content: center;
     border-radius: 10px;
 
@@ -27,6 +68,8 @@ div.contact
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -36,11 +79,12 @@ form
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 80px;
+    min-height:80%;
     align-items: center;
     background-color: whitesmoke;
     width: 100%;
     line-height: 130%;
+
 
 }
 
