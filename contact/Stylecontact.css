@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("bg3.jpg");
+    background-color: white;
     background-attachment: fixed;
     background-size: cover;
     margin: 10px;
@@ -54,7 +54,7 @@ a{
 
 fieldset
 {
-    background-color: rgba(36, 142, 41, 0.24);
+    background-color: rgba(20, 85, 122, 0.61);
     margin: 10px;
     width: 100%;
     align-content: center;
@@ -81,7 +81,7 @@ form
     flex-direction: column;
     min-height:80%;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0);
     width: 100%;
     line-height: 130%;
 
