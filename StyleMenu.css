@@ -68,6 +68,7 @@ color: gray;}
 img.log
 {
     max-width: 80%;
+    min-width: 50%;
     margin-left: 10%;
 }
 
@@ -173,7 +174,7 @@ background-color: whitesmoke;
         width: 50%;
         column-gap: 10px;
         justify-content: end;
-        overflow: scroll;
+
 
 
     }
