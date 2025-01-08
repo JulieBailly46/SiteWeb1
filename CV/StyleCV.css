@@ -5,6 +5,7 @@ section{grid-area: principale; background-color: rgba(234, 234, 243, 0.904);}
 aside {grid-area: lateral;background-color: rgba(5, 5, 51, 0.671);}
 footer{grid-area: pied;background-color: rgba(20, 85, 122, 0.61);border:}
 
+/* Structure page */
 div.tout
 {
     
@@ -120,6 +121,10 @@ div.tout
         grid-template-columns: 100%;
     }
 }
+
+
+
+/* Barre de menu */
 .menu
 {
     background-color: rgba(245, 245, 245, 0.77);
@@ -131,19 +136,23 @@ div.tout
     min-height: 50px;
     align-items: center;
     padding:5px;
-    color: black;
+    color: gray;
+
 }
+a:visited
+{ text-decoration: none ;}
+a
+{ text-decoration: none ;}
 
 
 .content
 {
-    background-color: rgba(169, 169, 169, 0.29);
-    border: 1px solid black;
-    border-radius: 4px;
+color: gray;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
     flex-basis: 20%;
+    font-size:x-large ;
 }
 a.menu{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
