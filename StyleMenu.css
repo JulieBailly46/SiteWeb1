@@ -173,6 +173,7 @@ background-color: whitesmoke;
         width: 50%;
         column-gap: 10px;
         justify-content: end;
+        overflow: scroll;
 
 
     }
