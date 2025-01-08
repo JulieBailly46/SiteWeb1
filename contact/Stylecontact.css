@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+   background-color:rgba(245, 245, 245, 0.77);
     background-attachment: fixed;
     background-size: cover;
     margin: 10px;
@@ -52,6 +52,14 @@ text-decoration: none;
 h2
 {color: gray}
 
+img.log
+{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/*Formulaire */
+
 fieldset
 {
     background-color: rgba(20, 85, 122, 0.61);
@@ -65,7 +73,7 @@ fieldset
 div.contact
 {
     width: 90%;
-    background-color: white;
+    background-color: (245, 245, 245, 0.77);
     border-radius: 10px;
     padding: 10px;
     margin-left: auto;
@@ -81,11 +89,8 @@ form
     flex-direction: column;
     min-height:80%;
     align-items: center;
-    background-color: rgba(245, 245, 245, 0);
     width: 100%;
     line-height: 130%;
-
-
 }
 
 label
